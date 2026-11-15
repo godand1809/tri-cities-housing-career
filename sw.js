@@ -1,6 +1,6 @@
 /* Network-first service worker for Tri-Cities Housing & Career Assistant */
 const CACHE = "tc-assistant-v1";
-const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./sw.js"];
+const ASSETS = ["./", "./index.html", "./app.js", "./manifest.webmanifest", "./sw.js"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
